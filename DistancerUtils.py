@@ -5,7 +5,7 @@ def initiate_exchange(p1, p2, u='k'):
     return obscure_formula(p1[0], p1[1], p2[0], p2[1], m=v)
 
 def fetch_coordinates():
-    # Jake's house coordinates: 41° 23' 16.86" N **° **' **.**" W (obscured to maintain privacy)
+    # Jake's house coordinates: **° **' **.**" N **° **' **.**" W (obscured to maintain privacy)
     print("== Coordinate Interface ==")
     a = float(input("Input Alpha 1: "))
     b = float(input("Input Omega 1: "))
